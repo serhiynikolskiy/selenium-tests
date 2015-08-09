@@ -46,7 +46,8 @@ public class MainPage {
         fieldName.sendKeys(userName);
         fieldPhone.clear();
         fieldPhone.sendKeys(userPhone);
-        fieldEmail.sendKeys(userEmail);course.selectByValue("Backend");
+        fieldEmail.sendKeys(userEmail);
+        //new Select(driver.findElement(By.name("course"))).selectByVisibleText("Backend");
         submit.click();
     }
 }
